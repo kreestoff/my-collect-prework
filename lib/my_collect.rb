@@ -8,4 +8,6 @@ end
 array
 end
 my_collect(array) do |name|
-  name.split("")
+  name.split(" ").first 
+end
+
